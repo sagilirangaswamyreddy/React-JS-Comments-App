@@ -1,0 +1,132 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-items-container {
+  width: 90vw;
+}
+.comment-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+  color: #dee0e3;
+  font-weight: 600;
+}
+.name-styles {
+  color: #334155;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.profile-name-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.time-styles {
+  color: #94a3b8;
+}
+.comment-styles {
+  color: #64748b;
+}
+.like-and-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.like {
+  margin-left: 15px;
+  color: #7e858e;
+  font-weight: 600;
+  font-size: 20px;
+}
+.like-img {
+  height: 25px;
+}
+.like-btn {
+  background-color: transparent;
+  border: 0px;
+}
+.delete-img {
+  height: 25px;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+.active-like {
+  margin-left: 15px;
+  color: #0ea5e9;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .name-styles {
+    margin-right: 15px;
+  }
+  .comment-items-container {
+    width: 90%;
+  }
+  .profile {
+    min-width: 15vw;
+    max-width: 30vw;
+    margin-right: 15px;
+  }
+  .profile-content {
+    max-width: 70vw;
+  }
+  .comment-styles {
+    max-width: 70vw;
+  }
+  hr {
+    width: 100vw;
+    margin-top: 0px;
+  }
+}

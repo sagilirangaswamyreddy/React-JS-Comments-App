@@ -1,0 +1,119 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+}
+.data-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.data-container {
+  margin: 20px;
+  max-width: 50vw;
+  min-width: 40vw;
+}
+.heading {
+  color: #1e293b;
+  font-size: 55px;
+}
+.data-para {
+  color: #475569;
+  font-weight: 600;
+  font-size: 22px;
+}
+.input-name {
+  width: 70%;
+  height: 40px;
+  margin-bottom: 15px;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 20px;
+}
+.input-description {
+  width: 70%;
+  height: 40px;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.btn {
+  color: #dee0e3;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: #0284c7;
+  border: 0px;
+  font-size: 20px;
+}
+.img-container {
+  margin: 20px;
+  min-width: 40vw;
+}
+.comments-img {
+  width: 80%;
+}
+.horizontal-rule {
+  font-size: 1px;
+  color: #cbd2d9;
+  width: 100%;
+  margin-left: 10px;
+}
+.number-of-comments {
+  margin: 15px;
+  color: #334155;
+  font-weight: 500;
+  font-size: 20px;
+}
+.number {
+  background-color: #0ea5e9;
+  padding: 0px 7px;
+  border-radius: 5px;
+  color: #dee0e3;
+}
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    padding: 20px;
+  }
+  .data-img-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-container {
+    order: 0;
+  }
+  .data-container {
+    order: 1;
+    margin: 0px;
+    max-width: 90vw;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .data-para {
+    font-size: 18px;
+  }
+  .horizontal-rule {
+    margin-top: 10px;
+  }
+  .input-name {
+    width: 90%;
+  }
+  .input-description {
+    width: 90%;
+  }
+}
